@@ -1,0 +1,49 @@
+body {
+    background-color: blanchedalmond;
+}
+
+nav{
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand{
+    background-color: blanchedalmond;
+    
+}
+
+.nav-link{
+    background-color: blanchedalmond;
+    border-radius: 100%;
+}
+
+#PizzaSteve {
+    width: 10%;
+    float: right;
+}
+
+#PizzaSteve:hover {
+    content: url('pizzaback.png');
+}
+
+#kinai{
+    width: 200px;
+    float: right;
+}
+
+#pizzazo1{
+    background-color: burlywood;
+    width: 75%;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    transform: scale(1.5);
+}
