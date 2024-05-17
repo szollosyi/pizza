@@ -10,12 +10,18 @@ nav{
 
 .navbar-brand{
     background-color: blanchedalmond;
-    
+}
+
+.navbar-brand:hover{
+    transform: scale(1.1);
 }
 
 .nav-link{
     background-color: blanchedalmond;
-    border-radius: 100%;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
 }
 
 #PizzaSteve {
@@ -46,4 +52,25 @@ nav{
   
 .zoom:hover {
     transform: scale(1.5);
+}
+
+#pizza{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+}
+
+.zoom1 {
+    transition: transform .2s;
+    margin: 0 auto;
+    background-color: navajowhite;
+    margin: 1%;
+    margin-left: 20%;
+}
+
+.zoom1:hover{
+    transform: scale(1.1);
+}
+
+.btn {
+    margin: 2.5%;
 }
