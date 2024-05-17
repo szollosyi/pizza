@@ -12,7 +12,7 @@ fetch("https://pizza.kando-dev.eu/Pizza")
           <hr>
           <p class="card-text">Gluténmentes: ${glutenFreeText}</p>
           <hr>
-          <a href="#" class="btn btn-outline-info">Kosárba</a>
+          <a href="#" class="btn btn-outline-success">Kosárba</a>
         </div>
       </div>`;
     }
